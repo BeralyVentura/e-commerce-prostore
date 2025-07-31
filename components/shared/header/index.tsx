@@ -15,12 +15,11 @@ const Header = () => {
             <Image
               src='/images/logo.svg'
               alt={`${APP_NAME} logo`}
-              height={40}
-              width={40}
+              height={48}
+              width={48}
               priority={true}
             />
-            <span className='hidden lg:block font-semibold text-xl ml-2 tracking-tight text-gray-700'>
-
+            <span className='hidden lg:block font-bold text-2xl ml-3'>
               {APP_NAME}
             </span>
           </Link>
