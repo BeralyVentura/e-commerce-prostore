@@ -97,7 +97,6 @@ export async function createOrder() {
       redirectTo: `/order/${insertedOrderId}`,
     };
   } catch (error) {
-    if (isRedirectError(error)) throw error;
     return { success: false, message: formatError(error) };
   }
 }
